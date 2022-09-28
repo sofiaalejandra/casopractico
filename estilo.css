@@ -1,0 +1,52 @@
+*{
+    margin: 0%;/*margen*/
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;/*quita las viñetas*/
+    text-decoration: none;/*quita subrayado*/
+    }
+    body{
+    background-color:#ffe5f0;/*color de la pagina*/
+    font-size: 29px;
+    }
+    header{
+    display: flex;/* capacidad de un elemento flexible para alterar sus
+    dimensiones*/
+    justify-content: space-between;/*el espacio en la línea para
+    colocar elementos flexibles*/
+    align-items: center;
+    background-color: #ffffeb;
+    padding: 10px;
+    }
+    #logo-banner{
+    display: flex;
+    align-items: center;/*centrar*/
+    text-decoration: none;
+    }
+    #imglogo{
+    height: 200px;/*altura*/
+    width: 200px;/*ancho*/
+    margin-right: 20px;/*e utiliza para especificar el grosor del
+    margen derecho*/
+    }
+    #text-banner{
+    display: flex;
+    height: 20px;
+    align-items: center;
+    font-family: fantasy;/*tipo de tipografia*/
+    color: #7f00b2;
+    }
+    nav li{
+    display: inline-block;/*agrandar el espacio del blok*/
+    }
+    nav .text-nav{
+    color: #7f00b2;/*color de letra*/
+    margin: 0 10px;
+    font-size: 30px;/*tamaño de letra*/
+    font-weight: bold;
+    padding: 20px;/*espacio de borde hacia dentro*/
+    }
+    nav .text-nav:hover{
+    color: #3d0b60;
+    background:#ffe5f0;
+    }
